@@ -8,7 +8,7 @@ from datetime import date
 st.set_page_config(page_title="Smart Lab Attendance System", layout="wide")
 st.title("🧪 Smart Lab Attendance System")
 
-ADMIN_PASSWORD = "00000"
+ADMIN_PASSWORD = "admin123"
 
 student_ids = [f"31123U480{str(i).zfill(2)}" for i in range(1, 51)]
 labs = ["NLP", "DBMS"]
